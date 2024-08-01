@@ -1,4 +1,4 @@
-class FuncOver
+class FuncOver1
 {
 	public void Multiply(int a , int b)
 	{
@@ -11,10 +11,13 @@ class FuncOver
 		double result = a * b ;
 		System.Console.WriteLine("the Mutiplcation of "+a+" * "+b+ " = "+result);
 	}
+}
+class FuncOver
+{
 
 	public static void Main(string[] args)
 	{
-		FuncOver obj = new FuncOver();
+		FuncOver1 obj = new FuncOver1();
 		obj.Multiply(2,6);
 		obj.Multiply(2.9,2.6);
 
